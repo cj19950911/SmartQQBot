@@ -1,4 +1,5 @@
-import thread  
+import thread 
+from apscheduler.schedulers.blocking import BlockingScheduler
 from random import randint
 
 from smart_qq_bot.messages import GroupMsg, PrivateMsg
